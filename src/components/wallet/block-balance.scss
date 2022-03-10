@@ -1,0 +1,52 @@
+.holdBlockActive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border: 1px solid #f3f4f6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+
+  .layoutOne {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .euroMoney {
+    position: static;
+    left: 142px;
+    top: 6px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #001b21;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
+  }
+}
+
+.buting {
+  border: 3px solid #017189;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #017189;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: white;
+  width: 100%;
+  margin: 30px 0;
+}

@@ -1,0 +1,36 @@
+ul {
+  text-align: left;
+  list-style: none;
+  padding-left: 0 !important;
+  li {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 16px 16px 19px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4px 0px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .active {
+    background: #ffffff;
+    color: #017189 !important;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none !important;
+  display: flex;
+}

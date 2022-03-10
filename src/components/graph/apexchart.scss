@@ -1,0 +1,117 @@
+.holdActivity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .actIt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h6 {
+    position: static;
+    width: 75px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 150%;
+    color: #001b21;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+  }
+
+  .date {
+    border: none;
+    color: #017189;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .history {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Genio/text/button */
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    display: flex;
+    align-items: center;
+
+    /* button/active */
+
+    color: #017189;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+}
+
+.GraphsmallBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.graphMoney {
+  position: static;
+  width: 85px;
+  height: 24px;
+  left: 0px;
+  top: 23px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #001b21;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 2px 0px;
+}
+
+.graphNet {
+  margin-right: 10px;
+  font-size: 20px;
+  border: 1.5px solid #cccccc;
+  padding: 2px;
+  border-radius: 5px;
+  color: #2b899d;
+}
+
+.graphLayout1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.graphLayout2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}

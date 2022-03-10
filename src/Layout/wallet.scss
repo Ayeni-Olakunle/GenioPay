@@ -1,0 +1,20 @@
+.holdYourWallet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .walletText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    color: #000000;
+  }
+
+  .createButton {
+    background: #017189;
+    border-radius: 8px;
+    padding: 16px;
+    border: none;
+    color: #ffffff;
+  }
+}

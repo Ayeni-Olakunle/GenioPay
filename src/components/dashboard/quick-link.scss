@@ -1,0 +1,87 @@
+.holdLinks {
+  text-align: left;
+  margin-top: 3rem;
+
+  .quick {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: #001b21;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .frenquent {
+    position: static;
+    width: 376px;
+    height: 24px;
+    left: 0px;
+    top: 36px;
+
+    /* Genio/text/body/regular */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    /* slate/400 */
+
+    color: #94a3b8;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+  }
+}
+
+.smallBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  position: static;
+  width: 120px;
+  height: 131px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border: 1px solid #f1f5f9;
+  box-sizing: border-box;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  //   margin: 0px 16px;
+
+  .iconStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: static;
+    width: 32px;
+    height: 32px;
+    left: 28.5px;
+    top: 0px;
+
+    border-radius: 200px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 9px 0px;
+  }
+}
+
+.holdBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}

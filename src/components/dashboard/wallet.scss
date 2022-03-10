@@ -1,0 +1,116 @@
+.viewWallet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+
+  .viewALl {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #017189;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0;
+  }
+}
+
+.USA {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  width: 332px;
+  height: 164px;
+  background: #fff6e6;
+  border: 1px solid #f1f5f9;
+  box-sizing: border-box;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
+
+  .holdAccount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .personal {
+    position: static;
+    width: 123px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #001b21;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+
+  .dollar {
+    position: static;
+    width: 204px;
+    height: 21px;
+    left: 0px;
+    top: 24px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #2b4146;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+
+  .money {
+    position: static;
+    width: 149px;
+    height: 28px;
+    left: 24px;
+    top: 112px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #001b21;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 40px 0px;
+  }
+
+  .usaFlag {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+}

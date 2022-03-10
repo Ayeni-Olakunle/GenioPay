@@ -1,0 +1,27 @@
+.holdNav {
+  padding: 10px 20px;
+  margin: 0;
+  height: 100vh;
+  background-color: #017189;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .logo {
+    padding: 15px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #017189;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b899d;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
